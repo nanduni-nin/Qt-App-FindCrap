@@ -19,16 +19,16 @@ Functions
 There are basically two functions.
 
  * **getTextFile** :  <br />
-          Creates a **QFile** for reading from a file which we need to work with. <br />
-          Opens that file, so we can use it. <br />
-          Converts the text in the file into a stream and store them in a **QString** variable. <br />
+          Creates a **QFile** for reading a file which we need to work with. <br />
+          Opens that file. <br />
+          Converts the text in the file into a stream and stores them in a **QString** variable. <br />
           Closes the file. <br />
           Displays the text on the Text Edit Area of the UI. <br />
           Moves the cursor into a place so that whenever the user searches for the next term, they can see where the words they are looking for.
 
           
  * **goButton_clicked** :  <br />
-          Takes the word user is searching for and store it as a **QString**. <br />
+          Takes the word user is searching for and stores it as a **QString**. <br />
           Finds the next occurence of that word, basically takes the cursor and moves it to the word if it appears in the Text Edit Area.
           
  <br />
