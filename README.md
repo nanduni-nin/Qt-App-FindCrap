@@ -37,7 +37,6 @@ There are basically two functions.
 Want to try
 ------------
 
-Creates a **QFile** for reading from a file which we need to work with.
-          Opens that file, so we can use it.
-          Converts the text in the file into a stream and store them in a **QString** variable.
-          Closes the file.
+Clone the repo using *git clone https://github.com/nanduni-nin/Qt-App-FindCrap.git*. <br />
+Open the project from Qt Creator. <br />
+Run the project and search the words !!!
